@@ -6,4 +6,8 @@ class App < Sinatra::Base
     "Welcome to your app!!!! "
   end
 
+  get '/home' do
+    "Welcome home!"
+  end
+
 end
